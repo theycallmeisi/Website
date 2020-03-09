@@ -1,0 +1,297 @@
+body, html {
+			margin:0;
+			padding:0;
+			min-height:100%;
+}
+
+body {
+			background-color: pink;
+			background-image: url('Background Roses.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+}
+
+ul {
+			display: flex;
+			justify-content: center;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #fcdbe1;
+}
+
+li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+			font-family: 'Satisfy', cursive;
+}
+
+li a:hover {
+			background-color: #e1a4a1;
+}
+
+h1 {
+			font-family: 'Satisfy', cursive;
+			color: #fcdbe1;
+			font-size: 200px;
+			background: none;
+			text-shadow: 4px 3px 0px #ffffff;
+}
+
+.title{
+			margin: 0 auto;
+			margin-top: 15%;
+			width: 100%;
+			text-align: center;
+}
+
+.textlebenslauf{
+			text-align: center;
+			margin-top: 5%;
+			background-color: #e1a4a1;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			height: 1200px;
+			color: white;
+			font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.bild{
+			margin-top:5%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 20%;
+}
+img{
+			max-width:100%;
+			max-height:100%;
+}
+
+.textfilzbach{
+			padding-top:30px;
+			padding-bottom:60px;
+			margin-top: 0;
+			width: 100%;
+			text-align: center;
+			background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 100%);
+}
+
+.bildgreta {
+			float: left;
+			width: 31%;
+			margin-right: 2%;
+			box-sizing: border-box;
+			margin-top: 100px;
+			margin-left:18px;
+}
+
+.textgreta {
+			float: left;
+			width: 31%;
+			margin-right: 2%;
+			padding: 20px;
+			box-sizing: border-box;
+			background-color:white;
+			border:7px #fcdbe1 solid;
+			margin-top: 100px;
+}
+
+.videogreta {
+			float: left;
+			width: 31%;
+			box-sizing: border-box;
+			margin-top: 100px;
+}
+
+.bildnyc {
+			float: left;
+			width: 47%;
+			margin-right: 2%;
+			box-sizing: border-box;
+			margin-top: 100px;
+			margin-left:25px;
+			min-height: 100%;
+}
+
+.textnyc {
+			float: left;
+			width: 47%;
+			margin-right: 2%;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-top: 0;
+			padding-bottom: 0;
+			box-sizing: border-box;
+			background-color:white;
+			margin-top: 100px;
+			border:7px #fcdbe1 solid;
+}
+
+.Bilder {
+			border:7px white solid;
+}
+
+.textdigitag {
+			margin-top: 100px;
+			margin-bottom: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+			padding: 20px;
+			background-color:white;
+			border:7px #fcdbe1 solid;
+}
+
+.kartedigi{
+			margin-top: 3%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3%;
+			width: 32%;
+}
+
+p {
+			font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2 {
+			color: #e1a4a1;
+			font-family: 'Montserrat Alternates', sans-serif;
+			font-size: 25px;
+			text-align: center;
+}
+
+.übertitellebenslauf {
+			color: white;
+}
+
+.wohnort{
+			margin-top: 3%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3%;
+			width: 32%;
+}
+
+.bilduno {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+			margin-left: 14%;
+}
+
+.bilddue {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+}
+
+.bildtre {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+}
+
+.bildquattro {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+			margin-left: 14%;
+}
+
+.bildcinque {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+}
+
+.bildsei {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+}
+
+.bildsette {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+			margin-left: 14%;
+}
+
+.bildotto {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+}
+
+.bildnove {
+			float: left;
+			width: 28%;
+			box-sizing: border-box;
+			margin-top: 100px;
+			margin-bottom: 100px;
+}
+
+input[type=text], select, textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical
+}
+
+input[type=submit] {
+			background-color: #e1a4a1;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+}
+
+input[type=submit]:hover {
+			background-color: #fcdbe1;
+}
+
+.container {
+			margin-top:150px;
+			border-radius: 5px;
+			background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 100%);
+			padding: 20px;
+			color: black;
+			font-family: 'Montserrat Alternates', sans-serif;
+			font-size:25px;
+} 
+
+.titellebenslauf {
+			color: white;
+			font-size: 40px;
+			text-decoration: underline;
+}
+
+.übertitellebenslauf {
+			color: white;
+			font-size: 25px;
+}
+
+#gal {
+			text-shadow: 3px 1px 0px #ffffff;
+			font-size: 60px;
+}
